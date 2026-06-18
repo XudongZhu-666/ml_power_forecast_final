@@ -28,9 +28,8 @@
 ## 运行方式
 
 ```powershell
-cd D:\WorkShop\code\ml_power_forecast_final
+cd ...\ml_power_forecast_final
 python run_experiment.py
-python make_report.py
 ```
 
 主要输出位于 `output/`：
@@ -38,8 +37,7 @@ python make_report.py
 - `results.csv`：每轮实验指标
 - `summary.csv`：均值和标准差
 - `figures/`：预测曲线、数据概览图
-- `20255227021_朱旭东_机器学习课程考核报告.docx`：最终报告
-- `20255227021_朱旭东_机器学习课程考核提交包.zip`：提交包
+
 
 ## 代码链接
 
