@@ -27,6 +27,13 @@
 
 ## 运行方式
 
+只想训练三种模型并在终端看到训练后的最终指标：
+
+```powershell
+python experiment.py
+```
+
+该命令默认运行 `3 个模型 × 2 个预测长度 × 5 个随机种子`，只打印 MSE/MAE 均值和标准差，不保存图片、不生成报告。
 ```powershell
 cd ...\ml_power_forecast_final
 python run_experiment.py
